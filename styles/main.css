@@ -1,0 +1,93 @@
+/*verhushka*/
+.conteiner-up{
+}
+
+.item1{
+}
+
+.zag-up{
+ width: 499px;
+ height: 18px;
+ display: inline-block;
+ position: absolute;
+ top: 13px;
+ left: 405px;
+}
+
+.a-up{
+
+}
+
+.item2{
+}
+
+.img-button-up{
+}
+
+.button-up{
+ box-sizing: border-box
+}
+
+.item3
+.img-enter-up
+.a-enter-up
+
+/* header*/
+.header
+.header_item1
+.logo
+.logo-text
+.color-e
+.button-header
+
+/*nav*/
+.nav{
+ width=100%
+ max-width: 1920px;
+ max-height: 50px;
+ background: #FFAF1E;
+ position: absolute;
+ top: 133px;
+ left: 0;
+}
+.nav>a
+
+/*all*/
+
+.all{
+ width: 100%;
+ max-width: 1920px;
+ max-height: 2057px;
+}
+
+.poisk
+.img-poisk
+.img1
+.img2
+.img3
+.img4
+.katalog
+.zapchasti-text
+.zapchasti-img1
+.zapchasti-img2
+.zapchasti-img3
+.zapchasti-img4
+.zapchasti-img5
+.koordinati
+.icon1-koordinati
+.text1-koordinati
+.icon1-koordinati
+.text2-koordinati
+.img-koordinati
+.ul-img-icon1-koordinati
+
+/*footer*/
+div.footer{
+ width: 1920px;
+ height: 301px;
+}
+.footer{
+ position: absolute;
+ top: 1756px
+ left: 0px;
+}
