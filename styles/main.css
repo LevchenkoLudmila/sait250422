@@ -1,93 +1,340 @@
-/*verhushka*/
-.conteiner-up{
+.big1920{
+background: #E5E5E5;
+ max-width: 1920px;
+ max-height: 1995px;
+ margin: 0 auto;
 }
 
-.item1{
+/*verhushka*/
+div{
+border: 1px solid #000000;
+}
+
+.conteiner-up{
+ max-width: 1110px;
+ height: 100%;
+ margin:0 auto;
+ background: #E5E5E5;
+ display: flex;
+ justify-content: spase-bitween;
+ aligh-items: center;
+
+}
+
+.itemup1{
+ max-width: 499px;
+ max-height: 18px;
+ margin:13px 0 0 0;
 }
 
 .zag-up{
  width: 499px;
  height: 18px;
- display: inline-block;
- position: absolute;
- top: 13px;
- left: 405px;
 }
 
 .a-up{
-
+ color: #333333;
+ text-decoration: none;
+ text-transform: uppercase;
+ font-size: 14px;
 }
 
-.item2{
+.textzag{
+ color: #333333;
+ text-decoration: none;
+ text-transform:lowercase;
+ font-size: 14px;
 }
 
-.img-button-up{
+.itemup2{
+ display: flex;
+ justify-content: spase-between;
+ width: 250px;
+ height: 44px;
 }
 
-.button-up{
- box-sizing: border-box
+.imgbutton-up{
+ width: 9px;
+ height: 4,62px;
 }
 
-.item3
+.button-up>a{
+ width: 39px;
+ height: 44px;
+ font-size: 14px;
+ text-decoration: none;
+}
+
 .img-enter-up
-.a-enter-up
+.a-enter-up>a{
+ font-size: 14px;
+ text-decoration: none;
+}
 
 /* header*/
-.header
-.header_item1
-.logo
-.logo-text
-.color-e
+.header{
+ max-width: 1920px;
+ max-height: 50px;
+ background: #c45835;
+}
+.header_item1{
+ flex:1;
+ weight 1920px;
+ height: 89px;
+ background-color: #FFFFFF;
+}
+.logo{
+ max-width: 60px;
+ max-height: 50px;
+ padding: 19px 2px 20px  50px;
+ margin: 80 px 500px 0 2px;
+}
+.logo-text{
+ font-size: 18px;
+ color:#000000;
+}
+.color-e{
+ color: #cc4433;
+}
 .button-header
 
 /*nav*/
 .nav{
- width=100%
- max-width: 1920px;
+ flex: 1;
+ background: #fff526;
+ width=100%;
+ max-width: 11920px;
  max-height: 50px;
  background: #FFAF1E;
- position: absolute;
- top: 133px;
- left: 0;
+
 }
-.nav>a
+.nav>a{
+ color: #333333;
+ text-decoration: none;
+ text-transform: uppercase;
+ font-size: 14px;
+ margin:0 63px 0 0;
+ text-align: center;
+ 
+}
 
 /*all*/
 
 .all{
  width: 100%;
- max-width: 1920px;
- max-height: 2057px;
+ max-width: 1110px;
+ max-height: 1691px;
+ margin: 0 auto;
 }
 
-.poisk
-.img-poisk
-.img1
-.img2
-.img3
-.img4
+.poisk{
+ 
+ width: 1110px;
+ height: 110px;
+ padding:34px 121.31px 56px  121px;
+ margin:36px 0 0 0; 
+ background: #FFFFFF;}
+
+.poiskp
+
+.poiskp1{
+ width: 196px;
+ height: 18px;
+ padding:19px 0 17px  17px;
+ margin:55px 0 0 0;
+ text-transform: uppercase;
+ font-size: 14px;
+ color:#333333;
+}
+
+.poiskp2{
+ width: 160px;
+ height: 18px;
+ padding:19px 60px 17px  24px;
+ margin:55px 0 0 0;
+ text-transform: uppercase;
+ font-size: 14px;
+ color:#828282;
+}
+
+.img-poisk{
+ width: 964px;
+ height: 38px;
+ padding: 11px 640px 9px  12px;
+ margin: 55px 0 0 0;
+ font-size: 14px;
+}
+
+.zapchasti{
+ display: flex;
+ justify-content: spase-bitween;
+ flex-wrap: wrap;
+ aligh-items: center;
+}
+.img1{
+ flex:2;
+ width: 133px;
+ height: 107px;
+ padding:34px 121.31px 56px  121px;
+ margin:0 80px 0 80px; 
+ background: #E5E5E5;
+ border: 1px solid #E4E4E4;
+ box-sizing: border-box;
+ box-shadow: 0px 0px 15px rgba(51, 51, 51, 0.05);
+ border-radius: 3px;
+}
+.img2{
+ flex:2;
+ width: 416px;
+ padding:32px 180px 56px  181px;
+ height: 190px;
+ background: #ffffff;
+}
+.img3{
+ flex:1;
+ width: 349.31px;
+ padding:34px 121.31px 56px  121px;
+ height: 190px;
+ background: #ffffff;
+}
+.img4{
+ flex:1;
+ width: 349.31px;
+ height: 190px;
+ padding:28px 127.31px 50px  136px;
+ background: #ffffff;
+}
+.img5{
+ flex:1;
+ width: 349.31px;
+ height: 190px;
+ padding: 21px 108.31px 50px  107px;
+ background: #ffffff;
+
+}
 .katalog
-.zapchasti-text
-.zapchasti-img1
-.zapchasti-img2
-.zapchasti-img3
-.zapchasti-img4
-.zapchasti-img5
-.koordinati
-.icon1-koordinati
-.text1-koordinati
-.icon1-koordinati
-.text2-koordinati
-.img-koordinati
-.ul-img-icon1-koordinati
+.zapchasti-text>p{
+ display: flex;
+ justify-content: center;
+ font-size: 20px;
+ text-align: center;
+}
+.zapchasti-img1{
+ width: 208.49px;
+ height: 190px;
+ padding: 58px 40.49px 58px 40px;
+ background: #ffffff;
+ 
+}
+.zapchasti-img2{
+ width: 208.49px;
+ height: 190px;
+ padding: 53px 32.49px 53px 34px;
+ background: #ffffff;
+
+}
+.zapchasti-img3{
+ width: 146px;
+ height: 80px;
+ padding: 55px 31.49px 58px 40px;
+ background: #ffffff;
+}
+.zapchasti-img4{
+ width: 107.55px;
+ height: 109.44px;
+ padding: 40px 50.95px 40.56px 50px;
+ background: #ffffff;
+}
+.zapchasti-img5{
+ width: 109.4px;
+ height: 115px;
+ padding: 37px 49.09px 38px 50px;
+ background: #ffffff;
+
+.mojete>p{
+ font-size: 14px;
+ text-align: center;
+ color:#333333;
+}
+
+.vijevske>p{
+ font-size: 20px;
+ text-align: center;
+ text-transform: uppercase;
+ color: #333333;
+}
+
+.koordinati{
+ width: 1110px;
+ height: 402px;
+ background: #c5c612;
+}
+.k1{
+ display: flex;
+}
+
+.icon1-koordinati>img{
+ width: 9px;
+ height: 12px;
+}
+
+.itext1-koordinati{
+ width: 136px;
+ height: 18px;
+}
+
+.icon2-koordinati>img{
+ width: 9px;
+ height: 12px;
+}
+
+.itext2-koordinati{
+ width: 100px;
+ height: 18px;
+}
+
+.k2{
+ display: flex;
+}
+
+.img-koordinati1
+.i62{
+ width: 492px;
+ height: 316px;
+}
+
+.img-koordinati2
+
+.i63{
+ width:200px;
+ height: 152.52px;
+}
+
+.i64{
+ width: 200px;
+ height: 149.64px;
+
+}
+
+.ul-kontakti
+
+.ul-kontakti>ul{
+ width: 314px;
+ height: 222px;
+}
+
+.ul-kontakti>p{
+ width: 236px;
+ height: 20px;
+}
+
+.ul-kontakti>button{
+ width: 181px;
+ height: 38px;
+}
 
 /*footer*/
-div.footer{
- width: 1920px;
- height: 301px;
-}
 .footer{
- position: absolute;
- top: 1756px
- left: 0px;
+ max-width: 1920px;
+ height: 301px;
 }
