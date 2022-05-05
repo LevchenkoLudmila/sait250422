@@ -2,29 +2,37 @@
      background: #E5E5E5;
      max-width: 1920px;
      max-height: 1995px;
-     margin: 0 auto;
 }
-div{ 
+
+/*div{ 
      box-shadow: 1px 2px 5px #F759C8;
+}*/
+
+.header{
+     max-width: 1920px;
+     max-height: 183px;
 }
-/*verhushka*/
-.conteiner-up{
-     max-width: 1110px;
-     height: 44px;
+.top-header{
+     max-width: 1920px;
+     max-height: 44px;
      margin: 0 auto;
      background: #E5E5E5;
-     display: flex;
+}
+.top{
+     max-width: 1110px;
+     max-height: 44px;
+     margin: 0 auto;
+     background: #E5E5E5;
+     display:flex;
      justify-content: space-between;
-     align-items: center;
 }
 
-.item-up1{
+.top-zag{
      max-width: 499px;
      max-height: 18px;
-     margin: 13px 0 0 0;
 }
 
-.zag-up>a{
+.top-zag a{
      color: #333333;
      text-decoration: none;
      text-transform: uppercase;
@@ -38,114 +46,162 @@ div{
      font-size: 14px;
 }
 
-.item-up2{
+.top1{
+     width: 203px;
+     height: 44px;
      display: flex;
-     justify-content: space-between;
-     width: 250px;
+     algin-items: baseline;
+}
+
+.top-button{
+     width: 131px;
      height: 44px;
 }
 
-.imgbutton-up{
+.top-button button{
+     width: 131px;
+     height: 44px;
+     background: #ffe8bd;
+}
+
+.submit{
+     height: 14px;
+     color: #333333;
+     background: #FFE8BD;     
+}
+
+.top-enter a{
+     font-size: 14px;
+     text-decoration: none;
+     color: #333333;
+}
+
+.top-enter img{
      width: 9px;
      height: 4,62px;
 }
-.button-up>button{
-     width: 131px;
-     height: 44px;
-     background: #FFE8BD;
-}
-.button-up>a{
-     font-size: 14px;
-     text-decoration: none;
-     color: #333333;
-}
 
-
-.a-enter-up{
-     width: 131px;
-     height: 44px;
-     text-align: center;
-}
-
-.a-enter-up>a{
-     font-size: 14px;
-     text-decoration: none;
-     color: #333333;
-}
-
-.img-enter-up{
-     width: 9px;
-     height: 4.62px;
-}
-
-/* header*/
-.header{
-     max-width: 1920px;
-     max-height: 139px;
-}
-.header_item1{
-     display: flex;
+.log{
      width: 1920px;
      height: 89px;
      background-color: #FFFFFF;
 }
 
-.logo{ 
+.log1110{
+     width: 1110px;
+     height: 89px;
+     margin: 0px 0px 0px 0px;
+     margin: 0 auto;
+     background-color: #FFFFFF;
+     display: flex;
+     justify-content: space-between;
+}
+.up-log{
+     width: 200px;
+     height:89px;
+     display: flex;
+     algin-items: center;
+}
+
+.logotip{
+     max-width: 60px;
+     max-height: 89px;
+}
+
+.logotip img{
      max-width: 60px;
      max-height: 50px;
-     margin: 19px 2px 20px 50px;
 }
-.logo-text>h3{
+
+.logo-text{
+     min-width: 136px;
+     min-height: 89px;
+}
+
+.logo-text h3{
      text-transform: uppercase;
      font-size: 18px;
      color:#000000;
+     text-transrofm: uppercase;
 }
+
 .color-e{
      color: #cc4433;
 }
 
-.button-header{
-     margin:25px 405px 26px 815px; 
+.button-log{
+     width: 115px;
+     height: 89px;
 }
 
-/*nav*/
-.item2{
+.div log{
+     margin:0 auto;
+}
+.button{
+     width: 88px;
+     height: 38px;
+     color:#333333;
+     font-size: 12px;
+}
+
+.button img{
+     width: 15px;
+     heighht: 10.89px;
+}
+
+.nav{
      max-width: 1920px;
      max-height: 50px;
      background: #FFAF1E;
      display: flex;
-     justify-content: space-between;
      justify-content: center;
 }
-.box1{
-     min-width: 150px;
-     height:50px;
-}
-.box2{
-     min-width: 150px;
-     height:50px;
-}
-.box3{
-     min-width: 150px;
-     height:50px;
-}
-.box4{ 
-     min-width: 150px;
-     height:50px;
-}
-.box5{
-     min-width: 150px;
-     height:50px;
+
+.nav1{
+     min-width: 1110px;
+     min-height: 50px;
+     background-color: #FFAF1E;
+     display: flex;
+     justify-content: space-around;
 }
 
-.item2>div a{
+.box1{
+     max-width: 150px;
+     height: 50px;
+}
+.box2{
+     max-width: 150px;
+     height: 50px;
+}
+.box3{
+     max-width: 150px;
+     height: 50px;
+}
+.box4{ 
+     max-width: 150px;
+     height: 50px;
+}
+.box5{
+     max-width: 150px;
+     height: 50px;
+}
+
+box6{
+     max-width: 150px;
+     height: 50px;
+}
+
+box7{
+     max-width: 150px;
+     height: 50px;
+}
+
+.nav1 div a{
      color: #333333;
      text-decoration: none;
      text-transform: uppercase;
      font-size: 14px;
 }
-
-/*all*/
 
 .all{
      max-width: 1110px;
@@ -153,15 +209,23 @@ div{
      margin: 0 auto;
 }
 
-.poisk{
+.search{
      max-width: 1110px;
      height: 110px;
-     padding:34px 121.31px 56px  121px;
      margin:36px 0 0 0; 
-     background: #FFFFFF;}
+     background: #FFFFFF;
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: cpace-around;
+     
+}
 
-
-.poiskp1{
+search-a{
+     width: 1110px;
+     height: 19px;
+     margin: 0 auto;
+}
+.search1{
      width: 196px;
      height: 18px;
      padding:19px 0 17px  17px;
@@ -171,7 +235,7 @@ div{
      color:#333333;
 }
 
-.poiskp2{
+.search2{
      width: 160px;
      height: 18px;
      padding:19px 60px 17px  24px;
@@ -181,165 +245,269 @@ div{
      color:#828282;
 }
 
-.div input{
+search-b{
+     width: 1110px;
+     height: 50px;
      
+}
+.div input{
      padding: 11px 64px 9px 12px;
-     margin: 55px 0 0 0;
      font-size: 14px;
+     border: 0px solid #ffffff;
+     
 }
 
-input{
-     width: 830px;
+.search-form{
+     width: 1110px;
+     height: 50px;
+     box-sizing: border-box;
+}
+
+.search-form input{
+     width: 964px;
      height: 38px;
 }
-.poisk-a button{
+
+.search-form button{
      width: 96px;
      height: 38px;
+     background-color: #ffaf1e;
 }
 
-.zapchasti{
+.details{
      display: flex;
-     justify-content: space-between;
+     justify-content: space-around;
      flex-wrap: wrap;
-     align-items: center;
+     align-items: stretch;
+     margin: 55px 0 0 0;
 }
+
+.details a{
+     height: 18px;
+     color: #333333;
+}
+
 .img1{
-     flex:2;
-     width: 133px;
-     height: 107px;
-     padding:34px 121.31px 56px  121px;
-     margin:0 80px 0 80px; 
-     background: #E5E5E5;
+     width: 416px;
+     height: 190px;
+     padding:34px 121.31px 56px  121px; 
+     background: #e5e5e5;
+     box-sizing: border-box;
      border: 1px solid #E4E4E4;
      box-sizing: border-box;
      box-shadow: 0px 0px 15px rgba(51, 51, 51, 0.05);
      border-radius: 3px;
+     
 }
+
+.img1 img{
+     width: 133px;
+     height: 107px;
+}
+
 .img2{
-     flex:2;
      width: 416px;
-     padding:32px 180px 56px  181px;
      height: 190px;
+     box-sizing: border-box;
+     padding:32px 180px 56px  181px;
      background: #ffffff;
 }
 .img3{
-     flex:1;
      width: 349px;
-     padding:34px 121.31px 56px  121px;
      height: 190px;
+     box-sizing: border-box;
+     padding:34px 121.31px 56px  121px;
      background: #ffffff;
 }
 .img4{
-     flex:1;
      width: 349px;
      height: 190px;
+     box-sizing: border-box;
      padding:28px 127.31px 50px  136px;
      background: #ffffff;
 }
 .img5{
-     flex:1;
      width: 349px;
      height: 190px;
+     box-sizing: border-box;
      padding: 21px 108.31px 50px  107px;
      background: #ffffff;
 
 }
-.katalog{
-     display: flex;
-     justify-content: space-between;
+.catalog{
+     width: 1110px;
+     height: 300px;
 }
       
-.zapchasti-text>p{
-     display: flex;
-     justify-content: center;
+.text-сatalog p{
      font-size: 20px;
      text-align: center;
+     font-size: uppercase;
 }
-.zapchasti-img1{
+
+.catalog-img{
+     display: flex;
+     flex wrap: wrap;
+     justify-content: space-between;
+}
+
+.сatalog-img1{
      width: 208.49px;
      height: 190px;
-     padding: 58px 40.49px 58px 40px;
+     padding: 58px 40.49px 59px 39px;
      background: #ffffff;
- 
+     box-sizing: border-box;
+     border: 1px solid #E4E4E4;
+     border-radius: 3px;
+     box-shadow: 0px 0px 15px rgba(51, 51, 51, 0.05);
 }
-.zapchasti-img2{
+
+.сatalog-img1 img{
+     width: 128px;
+     height: 74px;
+}
+
+.сatalog-img2{
      width: 208.49px;
      height: 190px;
      padding: 53px 32.49px 53px 34px;
      background: #ffffff;
-
+     box-sizing: border-box;
+     border: 1px solid #E4E4E4;
+     border-radius: 3px;
+     box-shadow: 0px 0px 15px rgba(51, 51, 51, 0.05);
 }
-.zapchasti-img3{
+
+.сatalog-img2 img{
+     width: 142px;
+     height: 84px;
+}
+
+.сatalog-img3{
+     width: 208.49px;
+     height: 190px;
+     padding: 54px 30.49px 54px 30px;
+     background: #ffffff;
+     box-sizing: border-box;
+     border: 1px solid #E4E4E4;
+     border-radius: 3px;
+     box-shadow: 0px 0px 15px rgba(51, 51, 51, 0.05);
+}
+
+.сatalog-img3 img{
      width: 146px;
      height: 80px;
-     padding: 55px 31.49px 58px 40px;
-     background: #ffffff;
 }
-.zapchasti-img4{
-     width: 107.55px;
-     height: 109.44px;
+
+.сatalog-img4{
+     width: 208.49px;
+     height: 190px;
      padding: 40px 50.95px 40.56px 50px;
      background: #ffffff;
+     box-sizing: border-box;
+     border: 1px solid #E4E4E4;
+     border-radius: 3px;
+     box-shadow: 0px 0px 15px rgba(51, 51, 51, 0.05);
 }
-.zapchasti-img5{
-     width: 109.4px;
-     height: 115px;
+
+.сatalog-img4 img{
+     width: 107.55px;
+     height: 109.44px;
+}
+
+.сatalog-img5{
+     width: 208.49px;
+     height: 190px;
      padding: 37px 49.09px 38px 50px;
      background: #ffffff;
+     box-sizing: border-box;
+     border: 1px solid #E4E4E4;
+     border-radius: 3px;
+     box-shadow: 0px 0px 15px rgba(51, 51, 51, 0.05);
+}
 
-mojete{
+.сatalog-img5 img{
+     width: 109.4px;
+     height: 115px;
+}
+
+.сatalog-button{
+     text-align: center;
+}
+
+.сatalog-button p{
      font-size: 14px;
      text-align: center;
      color: #333333;
 }
 
-.vijevske>p{
+.сatalog-button button{
+     width: 181px;
+     height: 38px;
+     font-size: 14px;
+     text-align: center;
+     color: #333333;
+     background-color: #ffaf1e;
+}
+
+.conteiner-coordinates{
+     width: 1110px;
+     height: 402px;
+     background: #ffffff;
+}
+
+.text-p p{
+     width: 1110px;
+     height: 25px;
      font-size: 20px;
      text-align: center;
      text-transform: uppercase;
      color: #333333;
 }
 
-.koordinati{
+.coordinates{
      width: 1110px;
      height: 402px;
-     background: #c5c612;
+     background: #ffffff;
 }
-.k1{
+
+.c1{
      display: flex;
 }
 
-.icon1-koordinati>img{
+.icon1-coordinates img{
      width: 9px;
      height: 12px;
 }
 
-.itext1-koordinati{
+.itext1-coordinati{
      width: 136px;
      height: 18px;
 }
 
-.icon2-koordinati>img{
+.icon2-coordinates>img{
      width: 9px;
      height: 12px;
 }
 
-.itext2-koordinati{
+.itext2-coordinates{
      width: 100px;
      height: 18px;
 }
 
-.k2{
+.c2{
      display: flex;
+     flex-wrap: wrap;
 }
 
-.img-koordinati1
+img-coordinati1
+
 .i62{
      width: 492px;
      height: 316px;
 }
 
-.img-koordinati2
+.img-coordinati2
 
 .i63{
      width:200px;
@@ -351,29 +519,119 @@ mojete{
      height: 149.64px;
 }
 
-.ul-kontakti
-
-.ul-kontakti>ul{
+.img-coordinati3
+.ul-kontakti{
      width: 314px;
      height: 222px;
 }
 
-.ul-kontakti>ul li{
+.ul-kontakti ul{
+     width: 314px;
+     height: 222px;
+     color: #333333;
+}
+
+.ul-kontakti ul li{
      list-style-type: square;
 }
 
-.ul-kontakti>p{
+
+.item-p{
      width: 236px;
      height: 20px;
 }
 
-.ul-kontakti>button{
+.item-button button{
      width: 181px;
      height: 38px;
+     background-color: #ffaf1e;
 }
 
 /*footer*/
 .footer{
      max-width: 1920px;
-     height: 301px;
+     min-height: 301px;
 }
+
+/*@media screen and (min-width: 1200px) {
+ .big1920{
+     max-width: 970px;
+}
+ .big1920{
+     max-width: 960px;
+     }
+ .header{
+     max-width: 960px;
+     }
+ .top-header{
+     max-width: 960px;
+     }
+ .log{  
+     max-width: 960px;
+     }
+.log1110{
+     max-width: 960px;
+}
+.nav{
+     max-width: 960px;
+     }
+.nav1{
+     min-width: 960px;
+}
+ .all{
+     max-width: 960px;
+     }
+.search{
+     max-width: 960px;
+}
+.search-form{
+     max-width: 960px;
+     }
+.details{
+     max-width: 960px;
+}
+.catalog{
+     max-width: 960px;
+}
+ .footer{
+     man-width: 970px;
+     }
+  }
+
+@media screen and (min-width: 821px) {
+ .big1920{
+     max-width: 750px;
+     }
+ .header{
+     max-width: 740px;
+     }
+ .top-header{
+     max-width: 740px;
+     }
+ .log{  
+     max-width: 740px;
+     }
+.log1110{
+     max-width: 740px;
+}
+.nav{
+     max-width: 740px;
+     }
+.nav1{
+     min-width: 740px;
+}
+ .all{
+     max-width: 740px;
+     }
+.search-form{
+     max-width: 740px;
+     }
+.details{
+     max-width: 740px;
+}
+.catalog{
+     max-width: 740px;
+}
+ .footer{
+     man-width: 750px;
+     }*/
