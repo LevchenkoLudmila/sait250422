@@ -1,19 +1,19 @@
 .big1920{
      background: #E5E5E5;
-     max-width: 1920px;
-     max-height: 1995px;
+     width: 100%;
 }
 
-/*div{ 
+div{ 
      box-shadow: 1px 2px 5px #F759C8;
-}*/
+}
 
 .header{
-     max-width: 1920px;
-     max-height: 183px;
+	max-width: 1110px;
+	max-height: 183px;
+	
 }
 .top-header{
-     max-width: 1920px;
+     max-width: 1110px;
      max-height: 44px;
      margin: 0 auto;
      background: #E5E5E5;
@@ -82,20 +82,19 @@
 }
 
 .log{
-     width: 1920px;
+     max-width: 1920px;
      height: 89px;
      background-color: #FFFFFF;
+}
+.header-logo{
+	width: 1110px;
+	height: 89px;
+	background-color: #FFFFFF;
+	display: flex;
+	justify-content: space-between;
+	margin: 0 auto; 
 }
 
-.log1110{
-     width: 1110px;
-     height: 89px;
-     margin: 0px 0px 0px 0px;
-     margin: 0 auto;
-     background-color: #FFFFFF;
-     display: flex;
-     justify-content: space-between;
-}
 .up-log{
      width: 200px;
      height:89px;
@@ -158,11 +157,12 @@
 }
 
 .nav1{
-     min-width: 1110px;
-     min-height: 50px;
-     background-color: #FFAF1E;
-     display: flex;
-     justify-content: space-around;
+	min-width: 1110px;
+	min-height: 50px;
+	background-color: #FFAF1E;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
 }
 
 .box1{
@@ -177,7 +177,7 @@
      max-width: 150px;
      height: 50px;
 }
-.box4{ 
+a.box4{ 
      max-width: 150px;
      height: 50px;
 }
@@ -186,17 +186,17 @@
      height: 50px;
 }
 
-box6{
+.box6{
      max-width: 150px;
      height: 50px;
 }
 
-box7{
+.box7{
      max-width: 150px;
      height: 50px;
 }
 
-.nav1 div a{
+.nav1 a{
      color: #333333;
      text-decoration: none;
      text-transform: uppercase;
@@ -236,99 +236,99 @@ search-a{
 }
 
 .search2{
-     width: 160px;
-     height: 18px;
-     padding:19px 60px 17px  24px;
-     margin:55px 0 0 0;
-     text-transform: uppercase;
-     font-size: 14px;
-     color:#828282;
+	width: 160px;
+	height: 18px;
+	padding:19px 60px 17px  24px;
+	margin:55px 0 0 0;
+	text-transform: uppercase;
+	font-size: 14px;
+	color:#828282;
 }
 
 search-b{
-     width: 1110px;
-     height: 50px;
+	width: 1110px;
+	height: 50px;
      
 }
 .div input{
-     padding: 11px 64px 9px 12px;
-     font-size: 14px;
-     border: 0px solid #ffffff;
+	padding: 11px 64px 9px 12px;
+	font-size: 14px;
+	border: 0px solid #ffffff;
      
 }
 
 .search-form{
-     width: 1110px;
-     height: 50px;
-     box-sizing: border-box;
+	width: 1110px;
+	height: 50px;
+	box-sizing: border-box;
 }
 
 .search-form input{
-     width: 964px;
-     height: 38px;
+	width: 964px;
+	height: 38px;
 }
 
 .search-form button{
-     width: 96px;
-     height: 38px;
-     background-color: #ffaf1e;
+	width: 96px;
+	height: 38px;
+	background-color: #ffaf1e;
 }
 
 .details{
-     display: flex;
-     justify-content: space-around;
-     flex-wrap: wrap;
-     align-items: stretch;
-     margin: 55px 0 0 0;
+	max-width: 1110px;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	align-items: stretch;
+	margin: 55px 0 0 0;
+        flex:basis;
 }
 
 .details a{
-     height: 18px;
-     color: #333333;
+	width: 208.49px;
+	height: 190px;
+	color: #333333;
+	padding: 53px 32.49px 53px 34px;
+	box-sizing: border-box;
+	border: 1px solid #E4E4E4;
+	border-radius: 3px;
+	box-shadow: 0px 0px 15px rgba(51, 51, 51, 0.05);
 }
 
-.img1{
-     width: 416px;
-     height: 190px;
-     padding:34px 121.31px 56px  121px; 
-     background: #e5e5e5;
-     box-sizing: border-box;
-     border: 1px solid #E4E4E4;
-     box-sizing: border-box;
-     box-shadow: 0px 0px 15px rgba(51, 51, 51, 0.05);
-     border-radius: 3px;
+.detailsa div{
+        display: inline-box;
+	max-width:416px;
+}
+a>a1{
+	max-width: 133px;
+	min-height: 190px;
      
 }
 
-.img1 img{
-     width: 133px;
-     height: 107px;
-}
-
-.img2{
-     width: 416px;
-     height: 190px;
+a>a2{
+     max-width: 416px;
+     min-height: 190px;
      box-sizing: border-box;
      padding:32px 180px 56px  181px;
      background: #ffffff;
 }
-.img3{
-     width: 349px;
-     height: 190px;
+a>a3{
+     max-width: 349px;
+     min-height: 190px;
      box-sizing: border-box;
      padding:34px 121.31px 56px  121px;
      background: #ffffff;
 }
-.img4{
-     width: 349px;
-     height: 190px;
+a>a4{
+     max-width: 349px;
+     min-height: 190px;
      box-sizing: border-box;
      padding:28px 127.31px 50px  136px;
      background: #ffffff;
 }
-.img5{
-     width: 349px;
-     height: 190px;
+a>a5{
+     max-width: 349px;
+     min-height: 190px;
      box-sizing: border-box;
      padding: 21px 108.31px 50px  107px;
      background: #ffffff;
@@ -473,11 +473,14 @@ search-b{
 
 .c1{
      display: flex;
+     flex-wrap: wrap;
+     justify-content: between;
+     margin: 0 0 21px 0;
 }
 
 .icon1-coordinates img{
-     width: 9px;
-     height: 12px;
+     max-width: 9px;
+     min-height: 12px;
 }
 
 .itext1-coordinati{
@@ -486,144 +489,311 @@ search-b{
 }
 
 .icon2-coordinates>img{
-     width: 9px;
-     height: 12px;
+	max-width: 9px;
+	min-height: 12px;
 }
 
 .itext2-coordinates{
-     width: 100px;
-     height: 18px;
+	width: 100px;
+	height: 18px;
 }
 
 .c2{
-     display: flex;
-     flex-wrap: wrap;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;	
 }
 
 img-coordinati1
 
 .i62{
-     width: 492px;
-     height: 316px;
+	max-width: 492px;
+	min-height: 316px;
 }
 
 .img-coordinati2
 
 .i63{
-     width:200px;
-     height: 152.52px;
+	max-width:200px;
+	min-height: 152.52px;
+	margin: 0 0 15px 0;
 }
 
 .i64{
-     width: 200px;
-     height: 149.64px;
+	max-width: 200px;
+	min-height: 149.64px;
 }
 
-.img-coordinati3
+.img-coordinati3{
+	max-width:314px;
+}
 .ul-kontakti{
-     width: 314px;
-     height: 222px;
+     
+     max-width: 314px;
+     max-height: 222px;
 }
-
+.ul-kontakti{
+	box-sizing: border-box;
+	width: 314px;
+	height: 222px;
+	
+}
 .ul-kontakti ul{
-     width: 314px;
-     height: 222px;
-     color: #333333;
+	color: #ffaf1e;
+	font-size: 14 px;
+	line-height: 16px;
 }
 
+.colorli{
+       color: #333333;
+}
 .ul-kontakti ul li{
-     list-style-type: square;
+	list-style-type: square;
+	margin: 0 0 15px 0;
 }
 
 
 .item-p{
-     width: 236px;
-     height: 20px;
+	width: 236px;
+	height: 20px;
+        margin: 0 0 10px 0;
 }
 
 .item-button button{
-     width: 181px;
-     height: 38px;
-     background-color: #ffaf1e;
+	width: 181px;
+	height: 38px;
+	background-color: #ffaf1e;
 }
 
-/*footer*/
+
 .footer{
-     max-width: 1920px;
-     min-height: 301px;
+	max-width: 1110px;
+	max-height: 301px;
 }
 
-/*@media screen and (min-width: 1200px) {
- .big1920{
-     max-width: 970px;
+@media screen and (maax-width: 821px) {
+	.big1920{
+     background: #E5E5E5;
+     width: 100%;
+
+.header{
+  max-width: 750px;
+	
 }
- .big1920{
-     max-width: 960px;
-     }
- .header{
-     max-width: 960px;
-     }
- .top-header{
-     max-width: 960px;
-     }
- .log{  
-     max-width: 960px;
-     }
-.log1110{
-     max-width: 960px;
+.top-header{
+  max-width: 750px;
 }
+.top{
+  max-width: 750px;
+}
+
+.log{
+  max-width: 750px;
+}
+.header-logo{
+  max-width: 750px;
+}
+
+.up-log{
+  max-width: 750px;
+
 .nav{
-     max-width: 960px;
-     }
+  max-width: 750px;
+     justify-content: center;
+}
+
 .nav1{
-     min-width: 960px;
+  max-width: 750px;
 }
- .all{
-     max-width: 960px;
-     }
+
+.box1{
+  max-width: 750px;
+}
+.box2{
+  max-width: 750px;
+}
+.box3{
+   max-width: 750px;
+}
+a.box4{ 
+  max-width: 750px;
+}
+.box5{
+  max-width: 750px;
+}
+
+.box6{
+  max-width: 750px;
+}
+
+.box7{
+  max-width: 750px;
+}
+
+.nav1 a{
+  max-width: 750px;
+}
+
+.all{
+  max-width: 750px;
+}
+
 .search{
-     max-width: 960px;
+  max-width: 750px;
+     
 }
+
+search-a{
+  max-width: 750px;
+}
+.search1{
+  max-width: 750px;
+}
+
+.search2{
+  max-width: 750px;
+}
+
+
 .search-form{
-     max-width: 960px;
-     }
+  max-width: 750px;border-box;
+}
+
+.search-form input{
+	width: 964px;
+	height: 38px;
+}
+
+.search-form button{
+  max-width: 750px;
+}
+
 .details{
-     max-width: 960px;
+  max-width: 750px;
+}
+
+.details a{
+  max-width: 750px;
+}
+
+.detailsa div{
+  max-width: 750px;
+}
+a>a1{
+  max-width: 325px;
+}
+
+a>a2{
+  max-width: 325px;
+}
+a>a3{
+  max-width: 325px;
+}
+a>a4{
+  max-width: 325px;
+}
+a>a5{
+  max-width: 325px;
+
 }
 .catalog{
-     max-width: 960px;
+   max-width: 750px;;
 }
- .footer{
-     man-width: 970px;
-     }
-  }
 
-@media screen and (min-width: 821px) {
- .big1920{
+.catalog-img{
+   max-width:750px;
+}
+
+.сatalog-img1{
+   max-width: 750px;);
+}
+
+.сatalog-img1 img{
+   max-width: 325px;
+}
+
+.сatalog-img2{
+   max-width: 325px;
+}
+
+.сatalog-img2 img{
+   max-width: 325px;
+}
+
+.сatalog-img3{
+   max-width: 325px;
+}
+
+.сatalog-img3 img{
+   max-width: 325px;
+}
+
+.сatalog-img4{
+   max-width: 325px;
+}
+
+.сatalog-img4 img{
+   max-width: 325px;
+}
+
+.сatalog-img5{
+
+}
+
+.conteiner-coordinates{
+   max-width: 750px;
+}
+
+.coordinates{
      max-width: 750px;
-     }
- .header{
-     max-width: 740px;
-     }
- .top-header{
-     max-width: 740px;
-     }
- .log{  
-     max-width: 740px;
-     }
-.log1110{
-     max-width: 740px;
 }
-.nav{
-     max-width: 740px;
-     }
-.nav1{
-     min-width: 740px;
+
+.c1{
+    max-width: 750px;
 }
- .all{
-     max-width: 740px;
-     }
-.search-form{
+
+
+.itext1-coordinati{
+    max-width: 750px;
+}
+
+.c2{
+	max-width: 750px;
+}
+
+.i62{
+	max-width: 750px;
+
+}
+
+.i63{
+	max-width:750px;
+}
+
+.i64{
+	max-width: 750px;
+}
+
+.img-coordinati3{
+	max-width:750px;
+}
+.ul-kontakti{
+     max-width: 750px;
+}
+
+.item-p{
+	max-width: 236px;
+}
+
+.item-button button{
+	max-width: 181px;
+	}
+
+
+.footer{
+	max-width: 750px;
+	
+	}
      max-width: 740px;
      }
 .details{
