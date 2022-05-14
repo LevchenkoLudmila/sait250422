@@ -1,28 +1,14 @@
-.big1920{
-     background: #E5E5E5;
-     width: 100%;
+.conteiner{
+	max-width: 1920px;
+	background-color: #e5e5e5;
+	margin: 0 auto;
 }
-
 div{ 
      box-shadow: 1px 2px 5px #F759C8;
 }
 
-.header{
-	max-width: 100%;
-	max-height: 183px;
-	margin: 0 auto;
-	padding: 0 0 25px 0;
-}
-
-.top-header{
-	max-width: 1110px;
-	max-height: 44px;
-	margin: 0 auto;
-	background: #E5E5E5;
-}
 .top{
 	max-width: 1110px;
-	max-height: 44px;
 	margin: 0 auto;
 	background: #E5E5E5;
 	display:flex;
@@ -31,7 +17,6 @@ div{
 
 .top-zag{
 	max-width: 499px;
-	max-height: 18px;
 }
 
 .top-zag a{
@@ -50,14 +35,13 @@ div{
 
 .top1{
 	width: 230px;
-	height: 44px;
 	display: flex;
 	align-items: baseline;
 }
 
 .top-button{
-	max-width: 131px;
-	min-height: 44px;
+	width: 131px;
+	height: 44px;
 }
 
 .top-button button{
@@ -76,22 +60,27 @@ div{
 
 .top-enter img{
 	max-width: 9px;
-	min-height: 4,62px;
+	height: 4,62px;
+}
+
+.header{
+	max-width: 100%;
+	margin: 0 auto;
+	padding: 0 0 25px 0;
 }
 
 .log{
-	width: 100%;
-	miv-height: 89px;
+	max-width: 1920px;
 	background-color: #FFFFFF;
+	margin: 0 auto;
 }
+
 .header-logo{
 	width: 1110px;
-	height: 89px;
 	background-color: #FFFFFF;
 	display: flex;
-	flex-wrap: wrap;
 	justify-content: space-between;
-	margin: 0 auto; 
+	flex-wrap: wrap;
 }
 
 .up-log{
@@ -103,26 +92,21 @@ div{
 
 .logotip{
 	max-width: 60px;
-	max-height: 89px;
 }
 
 .logotip img{
 	max-width: 60px;
-	max-height: 50px;
+	min-height: 50px;
 }
 
 .logo-text{
-	min-width: 136px;
-	min-height: 89px;
-	font-weight: 400;
-	font-size: 18px;
+	max-width: 136px;
 }
 
 .logo-text h3{
 	text-transform: uppercase;
 	font-size: 18px;
 	color:#000000;
-	text-transform: uppercase;
 }
 
 .color-e{
@@ -131,13 +115,9 @@ div{
 
 .button-log{
 	width: 115px;
-	height: 89px;
 	padding: 16px 60px 0 92px;
 }
 
-.div log{
-	margin:0 auto;
-}
 .button{
 	width: 88px;
 	height: 38px;
@@ -152,7 +132,6 @@ div{
 
 .nav{
 	max-width: 1920px;
-	max-height: 50px;
 	background: #FFAF1E;
 	display: flex;
 	justify-content: center;
@@ -160,11 +139,18 @@ div{
 
 .nav1{
 	width: 1110px;
-	min-height: 50px;
-	background-color: #FFAF1E;
 	display: flex;
-	flex-wrap: wrap;
 	justify-content: space-around;
+	flex-wrap: wrap;
+	background-color: #FFAF1E;
+}
+
+.nav1 a{
+	color: #333333;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 14px;
+	padding: 22px 0px 0px 0px
 }
 
 .box1{
@@ -199,31 +185,50 @@ div{
 	height: 50px;
 }
 
-.nav1 a{
-	color: #333333;
-	text-decoration: none;
-	text-transform: uppercase;
-	font-size: 14px;
-	padding: 22px 0px 0px 0px
+.top-header{
+	max-width: 1110px;
+	max-height: 44px;
+	margin: 0 auto;
+	background: #E5E5E5;
 }
 
-.part2{
-     max-width: 1110px;
-     max-height: 1691px;
-     margin: 0 auto;
-}
-
-.group4{
+.group4-form{
 	width: 100%;
 	max-width: 1110px;
 	min-height: 44px;
 	margin: 0 auto;
 }
 
+.searchform{
+	max-width: 1110px;
+	display: block;
+	background-color: #ffffff;
+	border-box: 1px solid #e4e4e4; 
+	
+}
+
+.name1 a{
+	width: 196px;
+	text-decoration: none;
+	font-size: 14px;
+	line-height: 16px;	
+	text-align: center;
+	color: #333333;
+	font-weight: 700;
+}
+.name2 a{
+	width: 160px;
+	font-size: 14px;
+	text-decoration: none;
+	line-height: 16px;
+	text-align: center;
+	clolr:#828282;
+	font-weight: 400;
+}
+
 input{
 	width: 100%;
 	max-width: 964px;
-        height: 38px;
 	box-sizing: border-box;
 	border: 1px solid #000000;
 	border-radius: 3px;
@@ -247,25 +252,8 @@ input{
 	padding:  12px 0 7px;
 	background-color: #ffaf1e;
 }
-.name1{
-	width: 196px;
-	height: 18px;
-	font-size: 14px;
-	line-height: 16px;	
-	text-align: center;
-	color: #333333;
-	font-weight: 700;
-}
-.name2{
-	width: 160px;
-	height: 18px;
-	font-size: 14px;
-	line-height: 16px;
-	text-align: center;
-	clolr:#828282;
-	font-weight: 400;
-}
-.details{
+
+.group5-details{
 	max-width: 1110px;
 	display: flex;
 	justify-content: space-around;
@@ -343,48 +331,66 @@ input{
 
 }
 
-.details .a2-text.a3-text,.a4-text,.a5-text{
-	width: 264px;	
-}
-
 .details .a1-text{
 	width: 264px;
 }
-.details .a2-text.{
+
+.details .a2-text{
 	width: 264px;	
 }
-.details .a3-text,.a4-text,.a5-text{
+.details .a3-text{
 	width: 135px;	
 }
-.details .a4-text,.a5-text{
+.details .a4-text{
 	width: 188px;	
 }
 .details .a5-text{
 	width:150px;	
 }
+.a1-img{
+	display: block;
+	margin: auto;
+}
 .a2-imj{
 	display: block;
 	margin: auto;
 }
-
-.catalog{
-	width: 1110px;
-	height: 300px;
+.a3-img{
+	display: block;
+	margin: auto;
 }
-      
+
+.a4-img{
+	display: block;
+	margin: auto;
+}
+
+.a5-img{
+	display: block;
+	margin: auto;
+}
+.group6-сatalog{
+	max-width: 1110px;
+}
+
+.text-сatalog{
+	max-width: 600px;
+}
+
 .text-сatalog p{
 	font-size: 20px;
 	text-align: center;
-     font-size: uppercase;
+    font-size: uppercase;
 }
 
 .catalog-img{
+	max-width: 1110px;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
 }
 
-.сatalog-img1{
+.hyundai-img1{
 	width: 208.49px;
 	height: 190px;
 	padding: 58px 40.49px 59px 39px;
@@ -395,12 +401,12 @@ input{
 	box-shadow: 0px 0px 15px rgba(51, 51, 51, 0.05);
 }
 
-.сatalog-img1 img{
+.hyundai-img1 img{
 	width: 128px;
 	height: 74px;
 }
 
-.сatalog-img2{
+.chevrolet-img2{
 	width: 208.49px;
 	height: 190px;
 	padding: 53px 32.49px 53px 34px;
@@ -411,12 +417,12 @@ input{
 	box-shadow: 0px 0px 15px rgba(51, 51, 51, 0.05);
 }
 
-.сatalog-img2 img{
+.chevrolet-img2 img{
 	width: 142px;
 	height: 84px;
 }
 
-.сatalog-img3{
+.ford-img3{
 	width: 208.49px;
 	height: 190px;
 	padding: 54px 30.49px 54px 30px;
@@ -427,12 +433,12 @@ input{
 	box-shadow: 0px 0px 15px rgba(51, 51, 51, 0.05);
 }
 
-.сatalog-img3 img{
+.ford-img3 img{
 	width: 146px;
 	height: 80px;
 }
 
-.сatalog-img4{
+.renaut-img4{
 	width: 208.49px;
 	height: 190px;
 	padding: 40px 50.95px 40.56px 50px;
@@ -443,12 +449,12 @@ input{
 	box-shadow: 0px 0px 15px rgba(51, 51, 51, 0.05);
 }
 
-.сatalog-img4 img{
+.renaut-img4 img{
 	width: 107.55px;
 	height: 109.44px;
 }
 
-.сatalog-img5{
+.opel-img5{
 	width: 208.49px;
 	height: 190px;
 	padding: 37px 49.09px 38px 50px;
@@ -459,7 +465,7 @@ input{
 	box-shadow: 0px 0px 15px rgba(51, 51, 51, 0.05);
 }
 
-.сatalog-img5 img{
+.opel-img5 img{
 	width: 109.4px;
 	height: 115px;
 }
@@ -489,24 +495,22 @@ input{
 	background: #ffffff;
 }
 
-.text-p p{
+.group7-textp p{
 	width: 1110px;
-	height: 25px;
 	font-size: 20px;
 	text-align: center;
 	text-transform: uppercase;
 	color: #333333;
 }
 
-.coordinates{	
+.group8-coordinates{
+	display:block;	
 	max-width: 1110px;	
-	height: 402px;
 	background: #ffffff;
 }
 
 .c1{
-	width: 300px;
-	height: 20px;
+	max-width: 300px;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: between;
@@ -514,13 +518,13 @@ input{
 }
 
 .icon1-coordinates img{
-     max-width: 9px;
-     min-height: 12px;
+	max-width: 9px;
+	min-height: 12px;
 }
 
 .itext1-coordinati{
      width: 136px;
-     height: 18px;
+    font-size: 18px;
 }
 
 .icon2-coordinates>img{
@@ -530,23 +534,38 @@ input{
 
 .itext2-coordinates{
 	width: 100px;
-	height: 18px;
+	font-size: 18px;
 }
 
 .c2{
+    max-width: 1110px;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;	
 }
 
-img-coordinati1
+.img-coordinati1{
+	max-width: 492px;
+}
 
 .i62{
 	max-width: 492px;
 	min-height: 316px;
 }
 
-.img-coordinati2
+.img-coordinati2{
+	max-width: 492px;
+}
+
+.box{
+	max-width:100%;
+	display: flex;
+	flex-wrap: nowrap;
+}
+
+.box-img{
+	max-width: 200px;
+}
 
 .i63{
 	max-width:200px;
@@ -587,7 +606,6 @@ img-coordinati1
 	margin: 0 0 15px 0;
 }
 
-
 .item-p{
 	width: 236px;
 	height: 20px;
@@ -609,7 +627,7 @@ img-coordinati1
 ------------------
 
 @media screen and (min-width: 1200px) {
- .big1920{
+ .conteiner{
      max-width: 1140px;
 }
 
@@ -652,7 +670,7 @@ img-coordinati1
   }
   @media screen and (min-width: 991px) {
 
-     .big1920{
+     .conteiner{
           max-width: 960px;
           }
       .header{
@@ -690,7 +708,7 @@ img-coordinati1
           }
 }
 @media screen and (min-width: 821px) {
- .big1920{
+ .conteiner{
      max-width: 720px;
      }
  .header{
@@ -729,7 +747,7 @@ img-coordinati1
 }
 @media screen and (min-width: 767px) {
 
-     .big1920{
+     .conteiner{
           max-width: 540px;
           }
       .header{
@@ -850,7 +868,7 @@ img-coordinati1
           }
 }
 @media screen and (min-width: 575px) {
-     .big1920{
+     .conteiner{
           max-width: 100%;;
           }
       .header{
